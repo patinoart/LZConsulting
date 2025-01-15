@@ -77,8 +77,8 @@
 	--button--border-hover: var(--swatch--dark);
 	/* button secondary */
 	--button-secondary--background: var(--swatch--transparent);
-	--button-secondary--text: var(--swatch--dark);
-	--button-secondary--border: var(--swatch--dark-faded);
+	--button-secondary--text: var(--swatch--brand-dark);
+	--button-secondary--border: var(--swatch--brand-dark);
 	--button-secondary--background-hover: var(--swatch--dark);
 	--button-secondary--text-hover: var(--swatch--light);
 	--button-secondary--border-hover: var(--swatch--dark);
@@ -86,6 +86,85 @@
     --link--link-text: var(--swatch--brand-dark);
     --link--link-hover: var(--swatch--sand-burnt);
     --link--link-active: var(--swatch--dark);
+}
+/* theme green */
+[data-theme="green"],
+[data-theme="dark"] [data-theme="invert"] {
+	--theme--background: var(--swatch--sharp-green);
+	--theme--text: var(--swatch--green-dark);
+	--theme--border: var(--swatch--green-dark);
+    --theme--logo: var(--swatch--green-dark);
+	/* button primary */
+	--button--background: var(--swatch--green-dark);
+	--button--text: var(--swatch--green-light);
+	--button--border: var(--swatch--green-dark);
+	--button--background-hover: var(--swatch--dark);
+	--button--text-hover: var(--swatch--light);
+	--button--border-hover: var(--swatch--dark);
+	/* button secondary */
+	--button-secondary--background: var(--swatch--transparent);
+	--button-secondary--text: var(--swatch--green-dark);
+	--button-secondary--border: var(--swatch--green-dark);
+	--button-secondary--background-hover: var(--swatch--dark);
+	--button-secondary--text-hover: var(--swatch--light);
+	--button-secondary--border-hover: var(--swatch--dark);
+    /* links */
+    --link--link-text: var(--swatch--green-dark);
+    --link--link-hover: var(--swatch--sand-burnt);
+    --link--link-active: var(--swatch--dark);
+}
+/* theme lightgreen */
+[data-theme="lightgreen"],
+[data-theme="dark"] [data-theme="invert"] {
+	--theme--background: var(--swatch--green-light);
+	--theme--text: var(--swatch--green-dark);
+	--theme--border: var(--swatch--green-dark);
+    --theme--logo: var(--swatch--green-dark);
+	/* button primary */
+	--button--background: var(--swatch--green-dark);
+	--button--text: var(--swatch--green-light);
+	--button--border: var(--swatch--green-dark);
+	--button--background-hover: var(--swatch--dark);
+	--button--text-hover: var(--swatch--light);
+	--button--border-hover: var(--swatch--dark);
+	/* button secondary */
+	--button-secondary--background: var(--swatch--transparent);
+	--button-secondary--text: var(--swatch--green-dark);
+	--button-secondary--border: var(--swatch--green-dark);
+	--button-secondary--background-hover: var(--swatch--dark);
+	--button-secondary--text-hover: var(--swatch--light);
+	--button-secondary--border-hover: var(--swatch--dark);
+    /* links */
+    --link--link-text: var(--swatch--green-dark);
+    --link--link-hover: var(--swatch--sand-burnt);
+    --link--link-active: var(--swatch--dark);
+}
+/* theme purple */
+[data-theme="purple"],
+[data-theme="invert"],
+[data-theme="light"] [data-theme="invert"] {
+	--theme--background: var(--swatch--brand-dark);
+	--theme--text: var(--swatch--light);
+	--theme--border: var(--swatch--brand-light);
+    --theme--logo: var(--swatch--brand);
+	/* button primary */
+	--button--background: var(--swatch--brand);
+	--button--text: var(--swatch--brand-text);
+	--button--border: var(--swatch--brand);
+	--button--background-hover: var(--swatch--light);
+	--button--text-hover: var(--swatch--dark);
+	--button--border-hover: var(--swatch--light);
+	/* button secondary */
+	--button-secondary--background: var(--swatch--transparent);
+	--button-secondary--text: var(--swatch--light);
+	--button-secondary--border: var(--swatch--light-faded);
+	--button-secondary--background-hover: var(--swatch--light);
+	--button-secondary--text-hover: var(--swatch--dark);
+	--button-secondary--border-hover: var(--swatch--light);
+    /* links */
+    --link--link-text: var(--swatch--brand);
+    --link--link-hover: var(--swatch--sand-burnt);
+    --link--link-active: var(--swatch--brand-light);
 }
 /* apply colors */
 :is(c, :where([data-theme]:not([data-theme="inherit"]))) {
